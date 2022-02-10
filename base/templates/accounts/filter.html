@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+
+
+<h1> Welcome to filter site</h1>
+
+
+
+<h1> {{ text | upper }} </h1>
+
+<h1> {{ text |cut:'world' }} </h1>
+
+
+<h2> {{ number | add:"99" }} </h2>
+
+
+
+{% endblock content %}
+
+
